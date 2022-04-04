@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_contact_infos",
+  "info": {
+    "displayName": "contactInfo",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

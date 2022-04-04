@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_user_deliveries",
+  "info": {
+    "displayName": "delivery",
+    "icon": "subway"
+  },
+  "options": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "stateProvince": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "zone": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    }
+  }
+}

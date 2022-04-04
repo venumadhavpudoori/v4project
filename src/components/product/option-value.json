@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_product_option_values",
+  "info": {
+    "displayName": "optionValue",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

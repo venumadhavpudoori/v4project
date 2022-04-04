@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "merchant_stores",
+  "info": {
+    "singularName": "merchant-store",
+    "pluralName": "merchant-stores",
+    "displayName": "merchantStore",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "storeCode": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "inBusinessSince": {
+      "type": "datetime"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "store_website_url": {
+      "type": "string"
+    },
+    "storeBrand": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "merchant-store.address"
+    }
+  }
+}

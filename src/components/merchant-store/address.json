@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_merchant_store_addresses",
+  "info": {
+    "displayName": "address",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "stateProvince": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    }
+  }
+}

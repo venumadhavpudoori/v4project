@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_order_billings",
+  "info": {
+    "displayName": "billing",
+    "icon": "truck-moving"
+  },
+  "options": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "zone": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    }
+  }
+}

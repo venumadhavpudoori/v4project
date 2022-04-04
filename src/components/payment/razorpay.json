@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_payment_razorpays",
+  "info": {
+    "displayName": "razorpay",
+    "icon": "donate"
+  },
+  "options": {},
+  "attributes": {
+    "key_id": {
+      "type": "string"
+    },
+    "key_secret": {
+      "type": "string"
+    }
+  }
+}

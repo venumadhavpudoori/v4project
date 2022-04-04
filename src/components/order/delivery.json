@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_order_deliveries",
+  "info": {
+    "displayName": "delivery",
+    "icon": "truck"
+  },
+  "options": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "zone": {
+      "type": "string"
+    }
+  }
+}

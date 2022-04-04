@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cartentries",
+  "info": {
+    "singularName": "cartentry",
+    "pluralName": "cartentries",
+    "displayName": "cartentry",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cartId": {
+      "type": "string"
+    },
+    "sku": {
+      "type": "string"
+    },
+    "storeCode": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "float"
+    },
+    "total": {
+      "type": "float"
+    },
+    "cart": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::cart.cart",
+      "inversedBy": "cartentries"
+    },
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "send_mails",
+  "info": {
+    "singularName": "send-mail",
+    "pluralName": "send-mails",
+    "displayName": "sendMail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "storeCode": {
+      "type": "string"
+    },
+    "user": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "store_base_url": {
+      "type": "string"
+    }
+  }
+}

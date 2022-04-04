@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "storeCode": {
+      "type": "string"
+    },
+    "razorpay": {
+      "type": "component",
+      "repeatable": false,
+      "component": "payment.razorpay"
+    }
+  }
+}
